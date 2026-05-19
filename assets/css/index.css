@@ -1,0 +1,16 @@
+.pg_principal img{
+    width: 150px;
+    height: 150px;
+}
+/*.pg_principal {
+    display: flexbox;
+    columns: 1;
+} */
+.pg_principal section {
+    border: 1px solid black;
+}
+
+.apresentacao {
+    display: grid;
+    grid-template-columns: 70% 1fr;
+}

@@ -1,0 +1,11 @@
+.caixa-que-move {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  animation: moverDireita 3s infinite alternate;
+}
+
+@keyframes moverDireita {
+  0% { left: 0px; }
+  100% { left: 200px; }
+}
