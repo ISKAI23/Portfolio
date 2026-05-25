@@ -1,3 +1,7 @@
+footer .footer_contato, .footer_pessoal, .footer_projetos{
+    padding: 10px;
+}
+
 .footer_pessoal{
     border: 1px solid black;
 }

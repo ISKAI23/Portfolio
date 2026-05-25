@@ -1,6 +1,7 @@
 .pg_principal img{
     width: 150px;
     height: 150px;
+    border: 2px solid black;
 }
 /*.pg_principal {
     display: flexbox;
@@ -13,4 +14,8 @@
 .apresentacao {
     display: grid;
     grid-template-columns: 70% 1fr;
+    background-color: #323232;
+    min-height: 90vh;
+    align-items: center;
+    color: #fdfdea;
 }
