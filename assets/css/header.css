@@ -1,0 +1,20 @@
+header a{
+    text-decoration: none;
+    color: #FAF9F6;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+header h3 {
+    font-weight: 600;
+}
+
+header a:hover{
+    transform: scale(1.1);
+    color: #c2f1ff;
+    font-weight:900;
+}
+
+header div {
+    margin: 10px;
+}

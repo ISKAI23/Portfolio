@@ -1,21 +1,96 @@
-.pg_principal img{
-    width: 150px;
-    height: 150px;
-    border: 2px solid black;
+.pg_principal {
+    background-color: #FAF9F6;
 }
-/*.pg_principal {
-    display: flexbox;
-    columns: 1;
-} */
-.pg_principal section {
-    border: 1px solid black;
+
+.apresentacao_foto img {
+    width: 100%;
+    height: 100%;
 }
 
 .apresentacao {
+    position: relative;
+    isolation: isolate;
     display: grid;
-    grid-template-columns: 70% 1fr;
+    grid-template-columns: 60% 1fr;
     background-color: #323232;
-    min-height: 90vh;
+    min-height: 83vh;
     align-items: center;
     color: #fdfdea;
+    padding-left: 5vw;
+    overflow: hidden;
+}
+
+
+.apresentacao::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(to top, #FAF9F6, rgba(0,0,0,0) 40%);
+    background-repeat: no-repeat;
+    image-rendering: optimizeQuality;
+    z-index: -1;
+}
+
+.apresentacao::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url('../img/fundo.png');
+    background-repeat: repeat;
+    background-size: 256px;
+    image-rendering: pixelated;
+    z-index: -1;
+}
+
+.apresentacao_texto h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    color: #FAF9F6;
+}
+
+.apresentacao_texto h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.apresentacao_competencias {
+    justify-self: center;
+    display: flex;
+    gap: 25px;
+}
+
+.apresentacao_competencias img{
+    transition: transform 0.1s ease;
+}
+
+.apresentacao_competencias img:hover{
+    transform: scale(1.1);
+}
+
+.apresentacao_competencias img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+.projeto_principal {
+    justify-items: center;
+    text-align: center;
+    padding-top: 7vh;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    padding-bottom: 10vh;
+}
+
+.projeto_principal_elemento{
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.projeto_principal_foto img {
+    width: 350px;
+    height: auto;
+    margin: 5rem;
+    border: 1px solid black;
 }
