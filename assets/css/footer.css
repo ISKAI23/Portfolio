@@ -1,20 +1,14 @@
-footer .footer_contato, .footer_pessoal, .footer_projetos{
+.footer_contato, .footer_pessoal, .footer_projetos{
     padding: 10px;
-}
-
-.footer_pessoal{
-    border: 1px solid black;
-}
-
-.footer_projetos{
-    border: 1px solid black;
-}
-
-.footer_contato{
     border: 1px solid black;
 }
 
 .contato_imagens img{
+    transition: transform 0.3s ease;
     width: 40px;
     height: 40px;
+}
+
+.contato_imagens img:hover{
+    transform: scale(1.1);
 }

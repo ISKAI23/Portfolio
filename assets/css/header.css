@@ -2,7 +2,7 @@ header a{
     text-decoration: none;
     color: #FAF9F6;
     display: inline-block;
-    transition: transform 0.2s ease;
+    transition: transform 0.3s ease;
 }
 
 header h3 {
@@ -10,11 +10,23 @@ header h3 {
 }
 
 header a:hover{
-    transform: scale(1.1);
-    color: #c2f1ff;
-    font-weight:900;
+    transform: scale(1.2);
+    color: #d3d3d3;
 }
 
-header div {
-    margin: 10px;
+.header_logo{
+    padding-left: 2vw;
+    width: 10vw;
+    background-color: aqua;
+    justify-items: center;
+}
+
+/* .header_logo img{
+    max-width: 5vw;
+} */
+
+.header_total{
+    display: flex;
+    gap: 2vw;
+    align-content: center;
 }
