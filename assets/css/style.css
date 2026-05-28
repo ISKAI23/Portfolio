@@ -4,7 +4,7 @@
 @import url("./projetos.css");
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+/* 
 div{
     border: 1px solid black;
 }
@@ -12,10 +12,9 @@ div{
 section{
     border: 1px solid aqua;
 }
-/* 
+
 * {
     outline: 2px solid red;
-    outline-offset: 10px;
 } */
 
 body{
@@ -50,18 +49,9 @@ header {
     display: grid;
     grid-template-columns: 10% 1fr 10%;
     color: #FAF9F6;
-    justify-items: center;
-    /* justify-content: center; */
-    /* justify-self: center; */
-    /* align-self: center; */
+    justify-content: center;
     align-content: center;
     align-items: center;
     font-weight: lighter;
     height: 7vh;
-    z-index: 9999;
-}
-
-
-img {
-    max-width: 100%;
 }

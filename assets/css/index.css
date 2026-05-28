@@ -15,7 +15,7 @@
     background-color: #323232;
     min-height: 83vh;
     align-items: center;
-    color: #fdfdea;
+    color: #FAF9F6;
     padding-left: 5vw;
     overflow: hidden;
 }
@@ -35,17 +35,26 @@
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url('../img/fundo.png');
+    background-image: url('../img/backgrounds/bg_pokemon-cor.svg');
+    opacity: 0.03;
     background-repeat: repeat;
     background-size: 250px;
     image-rendering: pixelated;
     z-index: -1;
 }
 
+.apresentacao_texto{
+    display: flex;
+    flex-direction: column;
+    columns: 1;
+}
+
 .apresentacao_texto h1 {
+    background: linear-gradient(to right, rgb(215, 57, 255), rgb(255, 0, 212), rgb(255, 0, 0) 70% );
+    background-clip: text;
     font-size: 5rem;
     font-weight: 600;
-    color: #FAF9F6;
+    color: transparent;
 }
 
 .apresentacao_texto h2 {
@@ -54,8 +63,9 @@
 }
 
 .apresentacao_competencias {
-    justify-self: center;
+    justify-content: center;
     display: flex;
+    flex-direction: row;
     gap: 25px;
 }
 
@@ -70,12 +80,11 @@
 .apresentacao_competencias img{
     width: 50px;
     height: 50px;
-    border-radius: 5px;
 }
 .projeto_principal {
     justify-items: center;
     text-align: center;
-    padding-top: 7vh;
+    padding-top: 8vh;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -84,7 +93,6 @@
 }
 
 .projeto_principal_elemento{
-    border: 1px solid black;
     border-radius: 30px;
 }
 
@@ -92,5 +100,13 @@
     width: 350px;
     height: auto;
     margin: 5rem;
-    border: 1px solid black;
+    transition: transform 0.1s ease;
+}
+
+.projeto_principal_foto img:hover{
+    transform: scale(1.1);
+}
+
+.projeto_principal_texto {
+    width: min(800px, 90%);
 }

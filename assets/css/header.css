@@ -15,18 +15,22 @@ header a:hover{
 }
 
 .header_logo{
-    padding-left: 2vw;
-    width: 10vw;
-    background-color: aqua;
-    justify-items: center;
+    display: flex;
+    align-items: center;
+    max-height: 7vh;
+    justify-content: center;
+    padding-right: 2vw;
 }
 
-/* .header_logo img{
-    max-width: 5vw;
-} */
+.header_logo img{
+    display: flex;
+    align-items: center;
+    max-height: 6vh;
+}
 
 .header_total{
     display: flex;
     gap: 2vw;
     align-content: center;
+    justify-self: center;
 }

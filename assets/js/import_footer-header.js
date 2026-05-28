@@ -3,7 +3,7 @@ const footer = document.querySelector('footer');
 
 header.innerHTML = `
         <div class="header_logo">
-            // <a href="https://www.youtube.com/@RapazeseTeclas" target="_blank" rel="noopener noreferrer"><img src="./assets/img/gengar.png" alt="Logo"></a>
+             <a href="https://www.youtube.com/@RapazeseTeclas" target="_blank" rel="noopener noreferrer"><img src="./assets/img/placeholder/gengar.png" alt="Logo"></a>
         </div>   
 
     <div class="header_total">
@@ -40,8 +40,8 @@ footer.innerHTML = `
                 <p>Caso queira me contatar, aqui estão minhas redes sociais:</p>
                 <div class="contato_imagens">
                     <address>
-                        <a href="https://www.instagram.com/_bruurb.rpz" target="blank" rel="noopener noreferrer"><img src="./assets/img/instagram-logo-facebook-2-svgrepo-com.svg" alt="@bruurb.rpz"></a>
-                        <a href="https://github.com/ISKAI23/ISKAI23.git" target="blank" rel="noopener noreferrer"><img src="./assets/img/github-142-svgrepo-com.svg" alt="GitHub ISKAI23"></a>
+                        <a href="https://www.instagram.com/_bruurb.rpz" target="blank" rel="noopener noreferrer"><img src="./assets/img/icon/icon_instagram.svg" alt="@bruurb.rpz"></a>
+                        <a href="https://github.com/ISKAI23/ISKAI23.git" target="blank" rel="noopener noreferrer"><img src="./assets/img/icon/icon_github.svg" alt="GitHub ISKAI23"></a>
                     </address>
                 </div>
             </div>
