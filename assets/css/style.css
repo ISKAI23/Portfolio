@@ -1,3 +1,4 @@
+@import url("./reset.css");
 @import url("./footer.css");
 @import url("./index.css");
 @import url("./header.css");
@@ -45,14 +46,14 @@ footer{
     font-weight: 500;
 }
 
-header {
+header{
     background-color: #161616;
     display: grid;
-    grid-template-columns: 10% 1fr 10%;
-    color: #FAF9F6;
-    justify-content: center;
-    align-content: center;
+    grid-template-columns: 20% 1fr 20%;
     align-items: center;
-    font-weight: lighter;
+    color: #faf8f5;
     height: 7vh;
+    max-height: 10vh;
+    max-width: 100%;
+    width: 100vw;
 }

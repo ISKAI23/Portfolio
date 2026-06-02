@@ -3,26 +3,16 @@ const footer = document.querySelector('footer');
 
 header.innerHTML = `
         <div class="header_logo">
-             <a href="https://www.youtube.com/@RapazeseTeclas" target="_blank" rel="noopener noreferrer"><img src="./assets/img/placeholder/gengar.png" alt="Logo"></a>
-        </div>   
-
-    <div class="header_total">
-        <div class="header_inicio">
-                <a href="index.html"><h3>Início</h3></a>
+            <a href="https://www.youtube.com/@RapazeseTeclas" target="_blank" rel="noopener noreferrer"><img src="./assets/img/placeholder/gengar.png" alt="Logo"></a>
         </div>
-
-        <div class="header_quem_sou_eu">
-            <a href="quem_sou_eu.html"><h3>Quem sou eu?</h3></a>    
-        </div>
-
-        <div class="header_projetos">
-            <a href="projetos.html"><h3>Meus Projetos</h3></a> 
-        </div>
-
-        <div class="header_contatos">
-            <a href="#contato"><h3>Contatos</h3></a>
-        </div>
-    </div>
+        <nav class="header_content">
+            <ul id="lista_header">
+                    <li><a href="index.html"><h3>Início</h3></a></li>
+                    <li><a href="quem_sou_eu.html"><h3>Quem sou eu?</h3></a></li>
+                    <li><a href="projetos.html"><h3>Meus Projetos</h3></a> </li>
+                    <li><a href="#contato"><h3>Contatos</h3></a></li>
+            </ul>
+        </nav>
 `;
 
 footer.innerHTML = `

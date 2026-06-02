@@ -1,36 +1,18 @@
-header a{
-    text-decoration: none;
-    color: #FAF9F6;
-    display: inline-block;
-    transition: transform 0.3s ease;
-}
-
-header h3 {
-    font-weight: 600;
-}
-
-header a:hover{
-    transform: scale(1.2);
-    color: #d3d3d3;
-}
-
 .header_logo{
-    display: flex;
-    align-items: center;
-    max-height: 7vh;
-    justify-content: center;
-    padding-right: 2vw;
+    padding-left: 2rem;
 }
 
 .header_logo img{
-    display: flex;
-    align-items: center;
-    max-height: 6vh;
+    max-height: 7vh;
 }
 
-.header_total{
+#lista_header{
     display: flex;
-    gap: 2vw;
-    align-content: center;
-    justify-self: center;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+}
+
+#lista_header h3{
+    color: white;
 }

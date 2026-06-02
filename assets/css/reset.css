@@ -1,0 +1,21 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove estilos padrão de listas */
+ul, ol {
+  list-style: none;
+}
+
+/* Garante que imagens sejam responsivas */
+img, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Evita que fontes fiquem minúsculas em inputs e botões */
+input, button, textarea, select {
+  font: inherit;
+}
