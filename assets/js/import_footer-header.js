@@ -11,6 +11,7 @@ header.innerHTML = `
                     <li><a href="quem_sou_eu.html"><h3>Quem sou eu?</h3></a></li>
                     <li><a href="projetos.html"><h3>Meus Projetos</h3></a> </li>
                     <li><a href="#contato"><h3>Contatos</h3></a></li>
+                    <li><a href="teste.html"><h3>Teste</h3><a></li>
             </ul>
         </nav>
 `;

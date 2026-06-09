@@ -1,0 +1,22 @@
+@import url("reset.css");
+
+footer{
+    background-image: linear-gradient(to bottom, #464646, #161616);
+    color: white;
+    max-height: max-content;
+}
+
+.footer_nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.contato ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.contato img{
+    max-height: 5vh;
+    max-width: 5vw;
+}
